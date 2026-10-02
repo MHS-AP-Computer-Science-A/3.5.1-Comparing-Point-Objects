@@ -39,8 +39,7 @@ public class Main {
 	       
 	       System.out.println("After changing p1, p1 = " + p1 + " and p3 = " + p3);
 	       
-	       //10. When you have your teacher check, you must explain why
-	       //    changing p1 caused p3 to change also
+
 
 	}
 
