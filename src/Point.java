@@ -1,5 +1,6 @@
 public class Point {
-   private int x, y;
+  int x
+  int y;
    
    //Constructor
    public Point(int theX, int theY){
@@ -9,10 +10,8 @@ public class Point {
    
    //Adds amount to the x value
    public void shiftRight(int amount){
-       x += amount;
-       
+       x += amount;       
    }
-   
    
    //Returns this Point as a String
    public String toString(){
@@ -21,7 +20,7 @@ public class Point {
    
    //Determines logical equality of this Point and otherPoint
    public boolean equals(Point otherPoint){
-       return toString().equals(otherPoint.toString());
+       return x == otherPoint.x && y == otherPoint.y;
    }
    
 }
